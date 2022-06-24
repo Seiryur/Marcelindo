@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                        <a href="#home"class="navbar-brand page-scroll">Marchelindo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#bestseller"class="page-scroll">Best Seller</a></li>
+                <li><a href="#contact" class="page-scroll">Contact</a></li>
+            </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- akhir vanbar -->
+   <!-- jumbotron -->
+   <div class="jumbotron text-center">
+    <img src="img/3.png" alt="" class="img-circle"> 
+    <h1>Marchelindo Survey</h1>
+    <p>Penjualan - Sewa - Service - Kalibrasi alat ukur tanah - laboratorium</p>
+   </div>
+<!-- akhir jumbotron -->
+<!-- about -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12"></div>
+        <h2 class="text-center">About</h2>
+        <hr>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorem velit dolorum, reiciendis maxime officiis assumenda nihil, ipsa fugit reprehenderit qui corrupti, ipsum ut mollitia ex similique recusandae illum minus!</p>
+            </div>
+            <div class="col-sm-5">
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam est autem fugiat sint consequatur et hic iste necessitatibus itaque cumque vero quae, delectus porro, soluta nostrum eveniet recusandae placeat quis?</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <!-- akhir about -->
+
+    <!-- Keterangan -->
+    <section class="bestseller" id="bestseller">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center"> 
+                    <h2>Best Seller </h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4" >
+                    <a href="" class="thumbnail">
+                        <img src="img/1.webp" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4" >
+                    <a href="" class="thumbnail">
+                        <img src="img/1.webp" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4" >
+                    <a href="" class="thumbnail">
+                        <img src="img/1.webp" alt="">
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" >
+                        <a href="" class="thumbnail">
+                            <img src="img/1.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4" >
+                            <a href="" class="thumbnail">
+                                <img src="img/1.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4" >
+                                <a href="" class="thumbnail">
+                                    <img src="img/1.webp" alt="">
+                                </a>
+                            </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- akhir keterangan -->
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>contact</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="Nama">Name</label>
+                            <input type="text" id="Nama" class="form-control" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email </label>
+                            <input type="Email" id="email" class="form-control" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Phone Number</label>
+                            <input type="tel" id="telp" class="form-control" placeholder="Enter Phone Number">
+                        </div>
+                        <select class="form-control">
+                            <option >-- Choose Category --</option>
+                            <option >Kalibrasi</option>
+                        </select>
+                        <div class="form-group">
+                            <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Enter Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success"> Send Message</button>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir contact -->
+    <!-- footer -->
+   <Footer>
+    <div class="container text-center" >
+        <div class="row">
+            <div class="col-sm-12" >
+                <p>&copy 2022 l built by. <a href=" https://www.instagram.com/saputramarcel4/">Marcel Saputra</a></p>
+            </div>
+        </div>
+    </div>
+   </Footer>
+    <!-- akhir footer -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
